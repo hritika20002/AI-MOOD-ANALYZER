@@ -54,4 +54,4 @@ Confidence: 92%
 
 ## 💼 Summary
 
-This project demonstrates practical experience in machine learning, natural lang
+This project demonstrates practical experience in machine learning, natural language.
