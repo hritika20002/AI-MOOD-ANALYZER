@@ -1,57 +1,54 @@
-# 🧠 AI Mood Analyzer
+🧠 AI Mood Analyzer
 
-A full-stack AI-powered web application that analyzes text input and predicts emotional sentiment in real time using Natural Language Processing (NLP).
+A simple full-stack machine learning project that predicts a user’s mood based on a single sentence.
 
----
+It uses Natural Language Processing (NLP) to analyze text and classify emotions based on learned patterns.
 
-## 🎬 Demo
+The goal of this project was not to perfectly “understand” human emotions, but to explore how far simple models can go in interpreting natural language.
 
-![AI Mood Analyzer Demo](demo.png)
+🌐 Live Demo
 
----
+👉 https://ai-mood-analyzer.vercel.app
 
-## 🚀 Key Features
+🚀 Features
+Predicts mood from text input
+Returns confidence score
+Real-time API response
+Simple and interactive UI
+🧠 How It Works
 
-- Real-time sentiment analysis from user input  
-- Mood classification (happy, sad, angry, neutral)  
-- Confidence scoring for predictions  
-- Clean and responsive user interface  
-- Fast and lightweight ML model  
+The model does not truly understand emotions.
 
----
+Instead, it:
 
-## 🧠 Project Highlights
-
-- End-to-end machine learning application  
-- NLP-based sentiment classification  
-- Full-stack integration (frontend + API backend)  
-- Real-time prediction system  
-
----
-
-## 🧪 Example
+Converts text into numerical features using TF-IDF
+Applies a trained Logistic Regression model
+Predicts the most likely mood category
+🛠️ Tech Stack
+Frontend: React ⚛️
+Backend: Flask 🐍
+ML: Scikit-learn (TF-IDF + Logistic Regression)
+Deployment: Vercel + Render
+🤔 Example
 
 Input:
 
-I feel amazing today
-
+“I’m fine. Just tired.”
 
 Output:
 
-Mood: happy
-Confidence: 92%
+Mood: Neutral / Sad (depends on model)
+Confidence: ~XX%
 
+💡 What I Learned
+Basics of NLP pipelines
+How text classification works
+Full-stack integration (React + Flask)
+Deploying ML apps to production
+📌 Note
 
----
+This is a beginner-friendly ML project focused on learning, experimentation, and understanding how language models interpret human text.
 
-## 📌 Future Improvements
+⭐ Try It
 
-- Improve accuracy using transformer-based models (BERT)  
-- Add user mood history tracking  
-- Deploy as a live web application  
-
----
-
-## 💼 Summary
-
-This project demonstrates practical experience in machine learning, natural language.
+👉 https://ai-mood-analyzer.vercel.app
