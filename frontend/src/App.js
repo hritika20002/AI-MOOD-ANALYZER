@@ -6,8 +6,8 @@ function App() {
   const [confidence, setConfidence] = useState(null);
 
   const analyzeMood = async () => {
-    const res = await fetch("http://127.0.0.1:5000/predict", {
-      method: "POST",
+const res = await fetch("https://ai-mood-analyzer.onrender.com/predict", {
+  method: "POST",
       headers: {
         "Content-Type": "application/json",
       },
